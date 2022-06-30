@@ -28,7 +28,7 @@ boxplot(Conductance ~ Species*Rx, data = gs_dat)
 # to do:
 # interpolate leaf temp values for dead plants
 # get leaf temperature data for CERE on day two
-# 
+# make sure there are only complete cases
 
 
 #mixed effects models to account for repeated measures (plant_ID), nested design (bin), and leaf temperature as a covariate
